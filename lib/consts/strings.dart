@@ -20,3 +20,8 @@ const privacyPolicy = "Privacy Policy";
 const termAndCond = "Terms and Conditions";
 
 const alreadyHaveAccount = "Already have an account?";
+
+const home = "Home",
+    categories = "Categories",
+    cart = "Cart",
+    account = "Account";
