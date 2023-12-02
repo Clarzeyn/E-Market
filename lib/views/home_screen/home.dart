@@ -3,11 +3,15 @@ import 'package:emart_app/consts/images.dart';
 import 'package:emart_app/consts/strings.dart';
 import 'package:emart_app/consts/styles.dart';
 import 'package:emart_app/controllers/home_controller.dart';
+import 'package:emart_app/views/cart_screen/cart_screen.dart';
+import 'package:emart_app/views/category_screen/category_screen.dart';
+import 'package:emart_app/views/home_screen/home_screen.dart';
+import 'package:emart_app/views/profile_screen/profile_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+class Home extends StatelessWidget {
+  const Home({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -24,10 +28,10 @@ class HomeScreen extends StatelessWidget {
     ];
 
     var navBody = [
-      Container(color: Colors.blue),
-      Container(color: Colors.amber),
-      Container(color: Colors.purple),
-      Container(color: Colors.cyan),
+      const HomeScreen(),
+      const CategoryScreen(),
+      const CartScreen(),
+      const ProfileScreen(),
     ];
 
     return Scaffold(

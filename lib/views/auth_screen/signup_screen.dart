@@ -1,8 +1,8 @@
 import 'package:emart_app/consts/consts.dart';
-import 'package:emart_app/widget_commons/applogo_widget.dart';
-import 'package:emart_app/widget_commons/bg_widget.dart';
-import 'package:emart_app/widget_commons/costum_textfield.dart';
-import 'package:emart_app/widget_commons/our_button.dart';
+import 'package:emart_app/views/widget_commons/applogo_widget.dart';
+import 'package:emart_app/views/widget_commons/bg_widget.dart';
+import 'package:emart_app/views/widget_commons/costum_textfield.dart';
+import 'package:emart_app/views/widget_commons/our_button.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

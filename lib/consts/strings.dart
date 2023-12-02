@@ -25,3 +25,10 @@ const home = "Home",
     categories = "Categories",
     cart = "Cart",
     account = "Account";
+
+const searchanything = "Search anything...",
+    todayDeal = "Today's Deal",
+    flashsale = "Flash sale",
+    topSellers = "Top Sellers",
+    brand = "Brand",
+    featuredCategories = "Featured Categories";

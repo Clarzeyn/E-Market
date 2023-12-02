@@ -1,11 +1,11 @@
 import 'package:emart_app/consts/consts.dart';
 import 'package:emart_app/consts/lists.dart';
-import 'package:emart_app/home_screen/home_screen.dart';
+import 'package:emart_app/views/home_screen/home.dart';
 import 'package:emart_app/views/auth_screen/signup_screen.dart';
-import 'package:emart_app/widget_commons/applogo_widget.dart';
-import 'package:emart_app/widget_commons/bg_widget.dart';
-import 'package:emart_app/widget_commons/costum_textfield.dart';
-import 'package:emart_app/widget_commons/our_button.dart';
+import 'package:emart_app/views/widget_commons/applogo_widget.dart';
+import 'package:emart_app/views/widget_commons/bg_widget.dart';
+import 'package:emart_app/views/widget_commons/costum_textfield.dart';
+import 'package:emart_app/views/widget_commons/our_button.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -39,7 +39,7 @@ class LoginScreen extends StatelessWidget {
                     title: login,
                     textColor: whiteColor,
                     onPress: () {
-                      Get.to(() => const HomeScreen());
+                      Get.to(() => const Home());
                     }).box.width(context.screenWidth - 50).make(),
                 5.heightBox,
                 createNewAccount.text.color(fontGrey).make(),

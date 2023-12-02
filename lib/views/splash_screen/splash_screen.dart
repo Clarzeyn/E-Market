@@ -2,7 +2,7 @@ import 'package:emart_app/consts/colors.dart';
 import 'package:emart_app/consts/consts.dart';
 import 'package:emart_app/consts/images.dart';
 import 'package:emart_app/views/auth_screen/login_screen.dart';
-import 'package:emart_app/widget_commons/applogo_widget.dart';
+import 'package:emart_app/views/widget_commons/applogo_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
