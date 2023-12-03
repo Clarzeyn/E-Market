@@ -31,4 +31,12 @@ const searchanything = "Search anything...",
     flashsale = "Flash sale",
     topSellers = "Top Sellers",
     brand = "Brand",
+    womenDress= "Women Dress",
+    girlsWatches = "Girls Watches",
+    mobilePhone = "Mobile Phone",
+    boysGlasses = "Boy Glasses",
+    tShirts = "TShirts",
+    girlsDress = "Girls Dress",
+    featuredProduct = "Featured Product",
+    
     featuredCategories = "Featured Categories";
