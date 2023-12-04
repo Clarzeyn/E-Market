@@ -31,12 +31,21 @@ const searchanything = "Search anything...",
     flashsale = "Flash sale",
     topSellers = "Top Sellers",
     brand = "Brand",
-    womenDress= "Women Dress",
+    womenDress = "Women Dress",
     girlsWatches = "Girls Watches",
     mobilePhone = "Mobile Phone",
     boysGlasses = "Boy Glasses",
     tShirts = "TShirts",
     girlsDress = "Girls Dress",
     featuredProduct = "Featured Product",
-    
     featuredCategories = "Featured Categories";
+
+const womenClothing = "Women Clothing",
+    menClothingFashion = "Men Clothing Fashion",
+    compAccess = "Computer & Accessories",
+    automobile = "Automobile",
+    kidtoys = "Kids & Toys",
+    sports = "Sports",
+    jewelery = "Jewelery",
+    cellphone = "Cellphone & Tab",
+    furniture = "Furniture";

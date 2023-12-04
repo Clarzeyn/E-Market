@@ -1,5 +1,4 @@
 import 'package:emart_app/consts/consts.dart';
-import 'package:emart_app/consts/images.dart';
 
 const sosialIconList = [icFacebookLogo, icGoogleLogo, icTwitterLogo];
 const slidderList = [imgSlider1, imgSlider2, imgSlider3, imgSlider4];
@@ -10,3 +9,27 @@ const featuredImages2 = [imgS4, imgS5, imgS6];
 
 const featuredTitles1 = [womenDress, girlsDress, girlsWatches];
 const featuredTitles2 = [boysGlasses, mobilePhone, tShirts];
+
+const categoriesList = [
+  womenDress,
+  compAccess,
+  automobile,
+  kidtoys,
+  sports,
+  cellphone,
+  jewelery,
+  menClothingFashion,
+  furniture
+];
+
+const categoryImages = [
+  imgFc1,
+  imgFc2,
+  imgFc3,
+  imgFc4,
+  imgFc5,
+  imgFc6,
+  imgFc7,
+  imgFc8,
+  imgFc9
+];
